@@ -5,7 +5,7 @@ React + Vite + Tailwind. Bitta sahifa, uchta bo‘lim: **Umumiy** (dashboard), *
 ## Ishga tushirish
 ```bash
 npm install
-npm run dev        # http://localhost:5173 — ma’lumot localStorage’da; bo‘sh ekranda «Excel’dagi ma’lumotni yuklash» tugmasi bor
+npm run dev        # http://localhost:5173 — demo rejim: backend yo‘q, public/seed.json birinchi ochilishda avtomatik yuklanadi (localStorage)
 npm run build      # dist/index.html (to‘liq sayt) + dist/artifact.html (claude.ai artifact uchun fragment)
 ```
 
@@ -24,4 +24,4 @@ npm run build      # dist/index.html (to‘liq sayt) + dist/artifact.html (claud
 `src/store.js` — bitta adapter interfeysi: `subscribe, setBook, deleteBook, setTranslator, deleteTranslator`.
 Hozir ikkita amalga oshirilgan: claude.ai `db` (umumiy, real vaqtda) va `localStorage` (dev). Supabase uchun shu beshta metodni `supabase-js` bilan yozish kifoya — UI o‘zgarmaydi.
 
-`data/seed.json` — ikkala Excel’dan olingan boshlang‘ich ma’lumot (`scripts/make_seed.py` bilan qayta hosil qilinadi).
+`public/seed.json` — ikkala Excel’dan olingan demo ma’lumot (`scripts/make_seed.py` bilan qayta hosil qilinadi). Deploy qilingan saytda ham shu yuklanadi — har brauzer o‘ziga; haqiqiy umumiy baza uchun Supabase adapterini qo‘shish kerak.

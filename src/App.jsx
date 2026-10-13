@@ -4,7 +4,7 @@ import Dashboard from './components/Dashboard.jsx'
 import BooksView from './components/BooksView.jsx'
 import BookDrawer from './components/BookDrawer.jsx'
 import TranslatorsView, { TranslatorDrawer } from './components/TranslatorsView.jsx'
-import { canWrite, createStore } from './store.js'
+import { canWrite, createStore, loadDemoSeed } from './store.js'
 import { todayStr } from './logic.js'
 
 const TABS = [
@@ -49,13 +49,29 @@ export default function App() {
   const closeDrawer = () => setDrawer(null)
   const openBook = (id) => setDrawer({ type: 'book', id })
 
+  const [seeding, setSeeding] = useState(false)
   async function loadSample() {
-    if (import.meta.env.DEV) {
-      const m = await import('../data/seed.json')
-      for (const t of m.default.translators) { const { id, ...d } = t; await store.setTranslator(id, d) }
-      for (const b of m.default.books) { const { id, ...d } = b; await store.setBook(id, d) }
+    if (!store || seeding) return
+    setSeeding(true)
+    try {
+      await loadDemoSeed(store)
+      try { localStorage.setItem('ft-seeded', '1') } catch {}
+    } catch (e) {
+      setDbErr(e?.message || 'Demo ma’lumot yuklanmadi.')
+    } finally {
+      setSeeding(false)
     }
   }
+
+  // Demo mode: no shared backend → load the Excel data once per browser.
+  useEffect(() => {
+    if (!store || !data || store.kind !== 'local') return
+    if (data.books.length || data.translators.length) return
+    let seeded = false
+    try { seeded = localStorage.getItem('ft-seeded') === '1' } catch {}
+    if (!seeded) loadSample()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [store, data])
 
   const loading = !store || !data
   const empty = !loading && books.length === 0 && translators.length === 0
@@ -104,7 +120,7 @@ export default function App() {
         ) : empty ? (
           <Empty title="Hali birorta kitob yo‘q">
             «+ Kitob» tugmasi bilan birinchi kitobni qo‘shing: arabcha nomi, tarjimon, jami sahifa va muddat — qolganini tizim hisoblaydi.
-            {import.meta.env.DEV ? <div className="mt-3"><Btn kind="soft" onClick={loadSample}>Excel’dagi ma’lumotni yuklash</Btn></div> : null}
+            {store.kind === 'local' ? <div className="mt-3"><Btn kind="soft" onClick={loadSample} disabled={seeding}>{seeding ? 'Yuklanmoqda…' : 'Excel’dagi demo ma’lumotni yuklash'}</Btn></div> : null}
           </Empty>
         ) : tab === 'umumiy' ? (
           <Dashboard books={books} trMap={trMap} onOpen={openBook} today={today} />

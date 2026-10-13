@@ -73,5 +73,5 @@ for path, segment in files:
             "createdAt": TODAY, "updatedAt": TODAY,
         })
 json.dump({"translators": [{"id": k, **v} for k, v in translators.items()], "books": books},
-          open("data/seed.json", "w"), ensure_ascii=False, indent=1)
+          open("public/seed.json", "w"), ensure_ascii=False, indent=1)
 print(len(books), "books,", len(translators), "translators")

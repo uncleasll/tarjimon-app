@@ -51,6 +51,16 @@ function dbStore(db) {
   }
 }
 
+/** Demo data for local mode: public/seed.json (the two Excel files). Loaded once per browser when the store is empty. */
+export async function loadDemoSeed(store) {
+  const res = await fetch(import.meta.env.BASE_URL + 'seed.json')
+  if (!res.ok) throw new Error('seed.json topilmadi')
+  const seed = await res.json()
+  for (const t of seed.translators || []) { const { id, ...d } = t; await store.setTranslator(id, d) }
+  for (const b of seed.books || []) { const { id, ...d } = b; await store.setBook(id, d) }
+  return (seed.books || []).length
+}
+
 export async function createStore() {
   try {
     if (window.claude && typeof window.claude.use === 'function') {
