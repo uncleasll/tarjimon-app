@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Layout: single column, max 1120px wide; sticky header carrying the tabs; edit drawer slides from the right on desktop and rises as a bottom sheet on phones. */
+:root {
+  --bg: #f2f4f0;
+  --surface: #ffffff;
+  --surface-2: #e8ece6;
+  --fg: #1b2320;
+  --muted: #5f6a64;
+  --line: #d5dbd2;
+  --accent: #0e6b68;
+  --accent-soft: #d6ebe8;
+  --accent-fg: #ffffff;
+  --good: #2c7a4b;
+  --good-soft: #dbefe1;
+  --warn: #9c620c;
+  --warn-soft: #f6e7c8;
+  --bad: #b02e2e;
+  --bad-soft: #f6dada;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121615;
+    --surface: #1a201e;
+    --surface-2: #242c29;
+    --fg: #e6ebe7;
+    --muted: #9aa59f;
+    --line: #2e3734;
+    --accent: #4fb8b2;
+    --accent-soft: #173d3b;
+    --accent-fg: #0b1514;
+    --good: #62c68a;
+    --good-soft: #173222;
+    --warn: #e3a94c;
+    --warn-soft: #3b2d12;
+    --bad: #ec7670;
+    --bad-soft: #3d1b1b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121615;
+  --surface: #1a201e;
+  --surface-2: #242c29;
+  --fg: #e6ebe7;
+  --muted: #9aa59f;
+  --line: #2e3734;
+  --accent: #4fb8b2;
+  --accent-soft: #173d3b;
+  --accent-fg: #0b1514;
+  --good: #62c68a;
+  --good-soft: #173222;
+  --warn: #e3a94c;
+  --warn-soft: #3b2d12;
+  --bad: #ec7670;
+  --bad-soft: #3d1b1b;
+  color-scheme: dark;
+}
+
+html, body { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.num { font-variant-numeric: tabular-nums; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}

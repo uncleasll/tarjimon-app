@@ -1,0 +1,824 @@
+{
+ "translators": [
+  {
+   "id": "t-abdulhamid",
+   "name": "Abdulhamid Umar Ali",
+   "telegram": "",
+   "aliases": [
+    "Абдулҳамид Умар Али"
+   ]
+  },
+  {
+   "id": "t-eldorbek",
+   "name": "Eldorbek",
+   "telegram": "",
+   "aliases": [
+    "Элдорбек"
+   ]
+  },
+  {
+   "id": "t-muhyiddin",
+   "name": "Muhyiddin Ergashev",
+   "telegram": "",
+   "aliases": [
+    "Муҳйиддин Эргашев"
+   ]
+  },
+  {
+   "id": "t-abdulbosit",
+   "name": "Abdulbosit Meliboyev",
+   "telegram": "",
+   "aliases": [
+    "Абдулбосит Мелибоев",
+    "Abdulbosit"
+   ]
+  },
+  {
+   "id": "t-murod",
+   "name": "Murod",
+   "telegram": "",
+   "aliases": [
+    "Мурод"
+   ]
+  },
+  {
+   "id": "t-abduqodir",
+   "name": "Abduqodir Abduqahhorov",
+   "telegram": "",
+   "aliases": [
+    "Абдуқодир Абдуқаҳҳоров"
+   ]
+  },
+  {
+   "id": "t-komron",
+   "name": "Komron",
+   "telegram": "",
+   "aliases": [
+    "Комрон"
+   ]
+  },
+  {
+   "id": "t-baxtiyor",
+   "name": "Baxtiyor Najmiddinov",
+   "telegram": "",
+   "aliases": [
+    "Najmiddinov Baxtiyor"
+   ]
+  },
+  {
+   "id": "t-humoyun",
+   "name": "Humoyun Nodirov",
+   "telegram": "",
+   "aliases": [
+    "Ҳумоюн Нодиров"
+   ]
+  },
+  {
+   "id": "t-saodat",
+   "name": "Saodat opa",
+   "telegram": "",
+   "aliases": [
+    "Саодат опа"
+   ]
+  },
+  {
+   "id": "t-ilhomjon",
+   "name": "Ilhomjon To‘xtayev",
+   "telegram": "",
+   "aliases": [
+    "Илҳомжон Тўхтаев"
+   ]
+  },
+  {
+   "id": "t-abdulloh",
+   "name": "Abdulloh Hasan",
+   "telegram": "",
+   "aliases": []
+  },
+  {
+   "id": "t-ahmadxon",
+   "name": "Ahmadxon Atoulloh",
+   "telegram": "",
+   "aliases": [
+    "Аҳмадхон Атоуллоҳ"
+   ]
+  },
+  {
+   "id": "t-oyatulloh",
+   "name": "Oyatulloh Abduqodirov",
+   "telegram": "",
+   "aliases": [
+    "Оятуллоҳ Абдукадиров"
+   ]
+  },
+  {
+   "id": "t-abdussami",
+   "name": "Abdussami",
+   "telegram": "",
+   "aliases": []
+  },
+  {
+   "id": "t-abubakr",
+   "name": "Abu Bakr Ikrom",
+   "telegram": "",
+   "aliases": [
+    "Абу Бакр Икром"
+   ]
+  },
+  {
+   "id": "t-sayyidmahmud",
+   "name": "Sayyidmahmud",
+   "telegram": "",
+   "aliases": [
+    "Саййидмаҳмуд"
+   ]
+  },
+  {
+   "id": "t-mahmudjon",
+   "name": "Mahmudjon Muxtorov",
+   "telegram": "",
+   "aliases": [
+    "Маҳмуджон Мухторов"
+   ]
+  },
+  {
+   "id": "t-fayzulloh",
+   "name": "Fayzulloh",
+   "telegram": "",
+   "aliases": []
+  }
+ ],
+ "books": [
+  {
+   "id": "b01",
+   "titleAr": "من صندوق البريد: رسائل من العالم الافتراضي",
+   "titleUz": "",
+   "author": "محمد عطية",
+   "publisher": "كتوبيا",
+   "segment": "diniy",
+   "translatorId": "t-abdulhamid",
+   "totalPages": 240,
+   "donePages": 20,
+   "deadline": "2026-09-30",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [
+    {
+     "d": "2026-10-13",
+     "p": 20
+    }
+   ],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b02",
+   "titleAr": "حين رأيت الله",
+   "titleUz": "",
+   "author": "بشار معرفي",
+   "publisher": "دار الحروف",
+   "segment": "diniy",
+   "translatorId": "t-eldorbek",
+   "totalPages": 149,
+   "donePages": 50,
+   "deadline": "2026-09-14",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [
+    {
+     "d": "2026-10-13",
+     "p": 50
+    }
+   ],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b03",
+   "titleAr": "بحضرة الأم.. نحو أم تربي على مكارم الأخلاق والقيم",
+   "titleUz": "",
+   "author": "عبد الله الطارقي",
+   "publisher": "إحسان الناشئين",
+   "segment": "diniy",
+   "translatorId": "t-muhyiddin",
+   "totalPages": 150,
+   "donePages": 0,
+   "deadline": "2026-09-10",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b04",
+   "titleAr": "ثلاثون عاما بحثا عن الله",
+   "titleUz": "",
+   "author": "محمد عبد الله صالح",
+   "publisher": "سبيل",
+   "segment": "diniy",
+   "translatorId": "t-abdulbosit",
+   "totalPages": 176,
+   "donePages": 50,
+   "deadline": "2026-09-20",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [
+    {
+     "d": "2026-10-13",
+     "p": 50
+    }
+   ],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b05",
+   "titleAr": "كوني صحابية",
+   "titleUz": "",
+   "author": "حنان لاشين",
+   "publisher": "عصير الكتب",
+   "segment": "diniy",
+   "translatorId": "t-abdulbosit",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "2026-10-05",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b06",
+   "titleAr": "خمسون قانونا للحب",
+   "titleUz": "",
+   "author": "أدهم شرقاوي",
+   "publisher": "kalemat",
+   "segment": "diniy",
+   "translatorId": "t-murod",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "2026-11-30",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b07",
+   "titleAr": "نظرية الفستق (٢)",
+   "titleUz": "",
+   "author": "",
+   "publisher": "",
+   "segment": "diniy",
+   "translatorId": "t-abduqodir",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "tugagan",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b08",
+   "titleAr": "في بيت النبي",
+   "titleUz": "",
+   "author": "",
+   "publisher": "",
+   "segment": "diniy",
+   "translatorId": "t-abduqodir",
+   "totalPages": 412,
+   "donePages": 0,
+   "deadline": "2026-11-30",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b09",
+   "titleAr": "دار الأحزان",
+   "titleUz": "",
+   "author": "مؤيد بن صالح الزاحم",
+   "publisher": "dar pages",
+   "segment": "diniy",
+   "translatorId": "t-komron",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "2026-11-30",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b10",
+   "titleAr": "السيرة",
+   "titleUz": "",
+   "author": "أدهم شرقاوي",
+   "publisher": "kalemat",
+   "segment": "diniy",
+   "translatorId": "t-baxtiyor",
+   "totalPages": 474,
+   "donePages": 0,
+   "deadline": "2027-01-10",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b11",
+   "titleAr": "المشاكل الزوجية فوائدها",
+   "titleUz": "",
+   "author": "",
+   "publisher": "",
+   "segment": "diniy",
+   "translatorId": "t-humoyun",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b12",
+   "titleAr": "Mutlu evliligin sirleri",
+   "titleUz": "",
+   "author": "",
+   "publisher": "",
+   "segment": "diniy",
+   "translatorId": "t-saodat",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b13",
+   "titleAr": "أسرار الإدارة المالية عند الصحابة",
+   "titleUz": "",
+   "author": "د. محمد صابر عواجه",
+   "publisher": "دار الرسم بالكلمات",
+   "segment": "diniy",
+   "translatorId": "",
+   "totalPages": 314,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b14",
+   "titleAr": "أسرار الثراء والإدارة المالية",
+   "titleUz": "",
+   "author": "د.محمد صابر عواجه",
+   "publisher": "دار الرسم بالكلمات",
+   "segment": "diniy",
+   "translatorId": "",
+   "totalPages": 290,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b15",
+   "titleAr": "هو النبي - رحلة إلى زمن النبوة",
+   "titleUz": "",
+   "author": "محمد الصالح علي",
+   "publisher": "",
+   "segment": "diniy",
+   "translatorId": "",
+   "totalPages": 328,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b16",
+   "titleAr": "لا تحصوها",
+   "titleUz": "",
+   "author": "رامي زين عريشة",
+   "publisher": "دار الكندي",
+   "segment": "diniy",
+   "translatorId": "",
+   "totalPages": 110,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b17",
+   "titleAr": "روحا",
+   "titleUz": "",
+   "author": "أحمد حمادي",
+   "publisher": "ملهمون",
+   "segment": "diniy",
+   "translatorId": "",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b18",
+   "titleAr": "أول مرة أتلذذ بالدعاء",
+   "titleUz": "",
+   "author": "عادل محمد خليل",
+   "publisher": "العصرية",
+   "segment": "diniy",
+   "translatorId": "",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b19",
+   "titleAr": "شبح الموت",
+   "titleUz": "",
+   "author": "فائض قراشي",
+   "publisher": "مسار",
+   "segment": "badiiy",
+   "translatorId": "t-ilhomjon",
+   "totalPages": 248,
+   "donePages": 90,
+   "deadline": "2026-10-20",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [
+    {
+     "d": "2026-10-13",
+     "p": 90
+    }
+   ],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b20",
+   "titleAr": "منازل لا تسكنها الطمأنينة",
+   "titleUz": "",
+   "author": "هبة جايد",
+   "publisher": "نيسان",
+   "segment": "badiiy",
+   "translatorId": "t-abdulloh",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "tugagan",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b21",
+   "titleAr": "نافذة على التعافي",
+   "titleUz": "",
+   "author": "ماجي شافعي",
+   "publisher": "عصير الكتب",
+   "segment": "badiiy",
+   "translatorId": "t-ahmadxon",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b22",
+   "titleAr": "أطياف الحب",
+   "titleUz": "",
+   "author": "خلود علي الكندري",
+   "publisher": "bookland",
+   "segment": "badiiy",
+   "translatorId": "t-abdulhamid",
+   "totalPages": 98,
+   "donePages": 98,
+   "deadline": "",
+   "status": "tugagan",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b23",
+   "titleAr": "الإنترنت المظلم",
+   "titleUz": "",
+   "author": "عبد العزيز حجي",
+   "publisher": "المسار",
+   "segment": "badiiy",
+   "translatorId": "t-oyatulloh",
+   "totalPages": 210,
+   "donePages": 210,
+   "deadline": "",
+   "status": "tugagan",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b24",
+   "titleAr": "ولو بعد حين",
+   "titleUz": "",
+   "author": "دعاء عبد الرحمن",
+   "publisher": "عصير الكتب",
+   "segment": "badiiy",
+   "translatorId": "t-abdussami",
+   "totalPages": 300,
+   "donePages": 0,
+   "deadline": "2026-11-20",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b25",
+   "titleAr": "طفلك لم يخبرك أحد",
+   "titleUz": "",
+   "author": "بسمة مبروك",
+   "publisher": "نيسان",
+   "segment": "badiiy",
+   "translatorId": "t-abdulhamid",
+   "totalPages": 243,
+   "donePages": 0,
+   "deadline": "2026-10-30",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b26",
+   "titleAr": "الظل",
+   "titleUz": "",
+   "author": "أحمد كامل",
+   "publisher": "نيسان",
+   "segment": "badiiy",
+   "translatorId": "t-abubakr",
+   "totalPages": 150,
+   "donePages": 150,
+   "deadline": "",
+   "status": "tugagan",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b27",
+   "titleAr": "الخامس عشر من أبريل",
+   "titleUz": "",
+   "author": "عبد المنعم الحسن",
+   "publisher": "Dar pages",
+   "segment": "badiiy",
+   "translatorId": "t-murod",
+   "totalPages": 207,
+   "donePages": 0,
+   "deadline": "2026-10-31",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b28",
+   "titleAr": "قربان آل يونس",
+   "titleUz": "",
+   "author": "",
+   "publisher": "",
+   "segment": "badiiy",
+   "translatorId": "t-sayyidmahmud",
+   "totalPages": 370,
+   "donePages": 160,
+   "deadline": "2026-10-01",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [
+    {
+     "d": "2026-10-13",
+     "p": 160
+    }
+   ],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b29",
+   "titleAr": "مغامرات في المحميات",
+   "titleUz": "",
+   "author": "هجرة الصاوي",
+   "publisher": "ومضة",
+   "segment": "badiiy",
+   "translatorId": "t-mahmudjon",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "tarjimada",
+   "note": "1-qism tugagan",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b30",
+   "titleAr": "قاتل الساكورا",
+   "titleUz": "",
+   "author": "",
+   "publisher": "",
+   "segment": "badiiy",
+   "translatorId": "t-komron",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "2026-10-15",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b31",
+   "titleAr": "جريمة على رقعة الشطرنج",
+   "titleUz": "",
+   "author": "هاجر عبد السلام",
+   "publisher": "نيسان",
+   "segment": "badiiy",
+   "translatorId": "t-fayzulloh",
+   "totalPages": 205,
+   "donePages": 0,
+   "deadline": "2026-10-30",
+   "status": "tarjimada",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b32",
+   "titleAr": "عقل بلا جسد",
+   "titleUz": "",
+   "author": "أحمد خالد توفيق",
+   "publisher": "كيان",
+   "segment": "badiiy",
+   "translatorId": "t-oyatulloh",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "tugagan",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b33",
+   "titleAr": "وبينهما حجاب",
+   "titleUz": "",
+   "author": "معاذ عدنان الكردي",
+   "publisher": "شفق",
+   "segment": "badiiy",
+   "translatorId": "",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b34",
+   "titleAr": "أكسيد الحب",
+   "titleUz": "",
+   "author": "",
+   "publisher": "",
+   "segment": "badiiy",
+   "translatorId": "",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b35",
+   "titleAr": "منزل الأحجية",
+   "titleUz": "",
+   "author": "فايض القراشي",
+   "publisher": "مسار",
+   "segment": "badiiy",
+   "translatorId": "",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b36",
+   "titleAr": "رجل المظلة",
+   "titleUz": "",
+   "author": "فايض القراشي",
+   "publisher": "مسار",
+   "segment": "badiiy",
+   "translatorId": "",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b37",
+   "titleAr": "ليس هذا ما كتبت",
+   "titleUz": "",
+   "author": "خالد الغطاس",
+   "publisher": "عصير الكتب",
+   "segment": "badiiy",
+   "translatorId": "",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  },
+  {
+   "id": "b38",
+   "titleAr": "على جناح ابن فرناس",
+   "titleUz": "",
+   "author": "أيمن رجب",
+   "publisher": "كيان",
+   "segment": "bolalar",
+   "translatorId": "",
+   "totalPages": 0,
+   "donePages": 0,
+   "deadline": "",
+   "status": "navbatda",
+   "note": "bolalar adabiyoti",
+   "logs": [],
+   "createdAt": "2026-10-13",
+   "updatedAt": "2026-10-13"
+  }
+ ]
+}
